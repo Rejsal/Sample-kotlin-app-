@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "727492896117",
+    "firebase_url": "https://chat-app-23b00.firebaseio.com",
+    "project_id": "chat-app-23b00",
+    "storage_bucket": "chat-app-23b00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727492896117:android:1ed915e41d80e33c",
+        "android_client_info": {
+          "package_name": "com.example.toobler.kotlinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727492896117-mrshojhueaqn7md9f93o6ehgo9tltehl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1VZysnhVt9RG5So0JlLCupAtXsm7Yigo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
