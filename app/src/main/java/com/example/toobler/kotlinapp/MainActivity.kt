@@ -40,4 +40,9 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onPause() {
+        super.onPause()
+        RedditData.disposable?.dispose()
+    }
+
 }
