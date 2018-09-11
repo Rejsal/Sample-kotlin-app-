@@ -12,5 +12,6 @@ class SecondActivity : AppCompatActivity() {
 
         val data = intent.getStringExtra("data")
         textView.text = "the data is ${data}"
+        textView.setOnClickListener { textView.text = User.getKey(this) }
     }
 }

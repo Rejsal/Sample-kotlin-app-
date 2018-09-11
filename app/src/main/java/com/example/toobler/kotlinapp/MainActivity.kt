@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
         helloWorld.text = resources.getString(R.string.kotlin_text)
 
+        User.setKey(this,resources.getString(R.string.kotlin_text))
+
         helloWorld.setOnClickListener { helloWorld.text = Key.txt }
 
         buttonSubmit.setOnClickListener {
